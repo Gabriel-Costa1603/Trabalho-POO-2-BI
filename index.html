@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Maldição</title>
+</head>
+<body>
+    <div class="formstyle">
+
+         <h1>Lista de Produtos</h1>
+
+        <form id="form">
+            <label for="produto">Produto: </label>
+            <input type="text" name="produto" id="produto" placeholder="Digite o nome do Produto">
+
+            <label for="produto">Valor: </label>
+            <input type="number" name="valor" id="valor" placeholder="Digite o Preço em Reais">
+
+            <input type="checkbox" name="prime" id="prime">
+            <label for="produto">Prime</label>
+
+            <input type="hidden" name="idx" id="idx" value="novo">
+            <input type="submit" name="salva"  value="salva" id="salva">
+        </form>
+    </div>
+
+    <table border="1">
+        <caption><h3>Produtos</h3></caption>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Valor</th>
+                    <th>Prime</th>
+                    <th>Opções</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+    </table>
+    <script src="./js/index.js"></script>
+</body>
+</html>

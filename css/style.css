@@ -1,0 +1,11 @@
+#salvar{background-color: brown;
+    color: rgb(255, 255, 255);}
+    tbody, thead{ background-color: rgba(255, 26, 26, 0.734);
+        color: rgb(255, 255, 255);}
+        *{text-align: center;
+        margin: auto;}
+body{
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}        
